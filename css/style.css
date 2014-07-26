@@ -11,15 +11,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 html {
     position: relative;
     min-height: 100%;
+    min-width: 100%;
     background-color: #eeeeee;
 }
 
 body 
 {
-    width: 100%;
     font-family: 'Open Sans', Georgia, Tahoma, Verdana, Arial;
-    font-size: 12pt;
-    line-height: 140%;
+    font-size: 1em;
+    line-height: 1.4;
     color: #3a3a3a;
 }
 
@@ -45,3 +45,7 @@ h6 { font-size: .75em; margin: 1.67em 0 }
 img { max-width: 100%; }
 
 /* Other settings */
+
+.clearfix:after {
+    clear: both;
+}
