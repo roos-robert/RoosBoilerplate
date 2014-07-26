@@ -5,3 +5,39 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+
+/* Settings for the whole site/document */
+
+html {
+    position: relative;
+    min-height: 100%;
+    background-color: #ffffff;
+}
+
+body 
+{
+    width: 100%;
+    background-color: #eeeeee;
+    font-family: 'Open Sans', Georgia, Tahoma, Verdana, Arial;
+    font-size: 12pt;
+    line-height: 140%;
+    color: #3a3a3a;
+}
+
+/* Settings for DIV-elements and HTML5-structure tags */
+
+/* Settings for classes for the DIV elements above, for modifications of colors and backgrounds etc. */
+
+/* Settings for the main navigation */
+
+/* Settings for headers and text */
+
+/* Settings for forms */
+
+/* Settings for images */
+
+img {
+    max-width: 100%;
+}
+
+/* Other settings */
